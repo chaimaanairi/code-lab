@@ -1,6 +1,7 @@
-import './App.css';
+import './App.css'; 
 import {useRef, useState} from 'react';
 
+//hooks 
 function App() { 
   const [todos, setTodos]= useState([]);
   const inputRef = useRef();
